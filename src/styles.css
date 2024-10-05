@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+h1 {
+    color: purple;
+    font-size: 4rem;
+    text-align: center;
+    animation: rotateAndGlow 3s ease-in-out infinite;
+  }
+  
+  @keyframes rotateAndGlow {
+    0% {
+      transform: rotate(0deg);
+      text-shadow: 0 0 10px rgba(255, 0, 255, 0.7), 0 0 20px rgba(255, 0, 255, 0.5);
+    }
+    50% {
+      transform: rotate(360deg);
+      text-shadow: 0 0 20px rgba(255, 0, 255, 1), 0 0 40px rgba(255, 0, 255, 0.7);
+    }
+    100% {
+      transform: rotate(0deg);
+      text-shadow: 0 0 10px rgba(255, 0, 255, 0.7), 0 0 20px rgba(255, 0, 255, 0.5);
+    }
+  }
+  
+  
+  
